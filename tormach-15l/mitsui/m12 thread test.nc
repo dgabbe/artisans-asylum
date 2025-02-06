@@ -116,7 +116,7 @@ M1 (Optional Stop <m1>)
 (Z End Location = -0.5000)
 (Thread Specification = None)
 (Thread Direction = Left Hand)
-(Inside Diameter = 0.3990)
+(Inside Diameter = 0.4010)
 (Outside Diameter = 0.4670)
 (Taper [incl. lead in/out] = 0.0000)
 
