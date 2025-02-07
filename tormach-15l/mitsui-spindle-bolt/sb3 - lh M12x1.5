@@ -1,0 +1,75 @@
+(External Threading G-code generated: Fri Feb  7 10:42:38 2025  <v1>)
+(PathPilot Version: 2.10.1)
+(Description = sb3 - lh M12x1.5)
+(Material = Steel : 1144)
+
+(Units = G20 inches)
+(Work Offset = G54)
+(Tool Number = 5)
+(Tool Description = threading carbide)
+(Tool Type = rtp_thread)
+(Tool Orientation = 6)
+(Tool Radius = 0.0158)
+(Flood = On)
+
+(Spindle RPM =  500.0)
+
+(Z Start Location = 0.0500)
+(Z End Location = -0.9400)
+(Thread Specification = None)
+(Thread Direction = Left Hand)
+(Inside Diameter = 0.4010)
+(Outside Diameter = 0.4670)
+(Taper [incl. lead in/out] = 0.0000)
+
+(Thread Length = 0.9900)
+(Pitch = 0.0591 inches/thread)
+(Threads per inch = 16.92)
+(Depth of Cut = 0.0249)
+(Thread Lead = 0.005)
+(Tool Clearance = 0.1)
+(Number of passes = 7)
+(Spring passes = 2)
+(Tool on X+ side)
+
+(Note: for 2 NPT External Thread)
+(Pipe OD = 2.375)
+(    for use with OD Turn and Chamfer)
+(Effective Thread Length = 0.7565)
+(    use as the distance between z_start and z_end in Chamfer)
+(    use an angle of 1.78 degrees)
+
+
+(----- Start of G-code -----)
+(<cv1>)
+
+G7 (Dia. Mode)
+G18 (XZ Plane)
+G90 (Absolute Distance Mode)
+G40 (Turn Cutter Compensation Off)
+G20 (units in inches)
+G54 (Work Offset)
+
+G30 (Park Tool)
+T0505
+
+G97 (RPM Mode On, CSS Off)
+S 500
+
+M8 (Flood Coolant ON)
+M3 (Spindle ON, Forward)
+G0 X0.6670
+G0 Z-0.9450
+G76 P0.0591 Z0.0500 I-0.2000 J0.0249 K0.0660 R2 Q30 D0.0000 H 2
+
+G0 X0.6670 Z-0.9450
+
+M9 (All Coolant Off)
+M5 (Spindle OFF)
+
+G30 (Park Tool)
+(</cv1>)
+(----- End of Thread -----)
+
+M30 (End of Program)
+
