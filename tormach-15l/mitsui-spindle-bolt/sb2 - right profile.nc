@@ -1,8 +1,8 @@
 (External Profiling G-code generated:)
-(   Fri Feb  7 10:36:56 2025)
+(   Fri Feb  7 21:31:35 2025)
 (PathPilot Version: 2.10.1)
 (Description = sb2 - right profile)
-(External Profiling G-code generated: Fri Feb  7 10:36:56 2025  <v1>)
+(External Profiling G-code generated: Fri Feb  7 21:31:35 2025  <v1>)
 (PathPilot Version: 2.10.1)
 (Description = sb2 - right profile)
 (Material = Steel : 1144)
@@ -42,7 +42,7 @@
 (X0.4800)
 (Z-1.0990)
 (X0.9110)
-(Z-1.6110)
+(Z-1.9940)
 (--profile list end--)
 
 
@@ -66,7 +66,7 @@ M8 (Flood Coolant ON)
 M3 (Spindle ON, Forward)
 G0 X1.5000 ( go to safe X, then start Z before issuing G71)
 G0 Z0.2000
-G71 P1004 D0.0200 F0.1000 J0.0060 L6 I0.0030 K0.0030 R0.0200 E1
+G71 P1001 D0.0200 F0.1000 J0.0060 L6 I0.0030 K0.0030 R0.0200 E1
 
 (Finish Pass)
 G0 X1.5000 ( go to safe X)
@@ -78,7 +78,7 @@ G1 X0.4670 Z-0.9450
 G1 X0.4800 Z-0.9450
 G1 X0.4800 Z-1.0990
 G1 X0.9110 Z-1.0990
-G1 X0.9110 Z-1.6110
+G1 X0.9110 Z-1.9940
 G1 X1.0625
 G40 (cutter compensation - off)
 G1 X1.5000 ( go to safe X)
@@ -86,16 +86,16 @@ G0 Z0.2000 ( go to safe Z)
 
 ("o-code subroutine for profile")
 (Note: all profile subroutine code is in parenthesis)
-(o1004 SUB)
+(o1001 SUB)
 ( G1 X0.4670 Z0.2000)
 ( G1 X0.4670 Z0.0500)
 ( G1 X0.4670 Z-0.9450)
 ( G1 X0.4800 Z-0.9450)
 ( G1 X0.4800 Z-1.0990)
 ( G1 X0.9110 Z-1.0990)
-( G1 X0.9110 Z-1.6110)
+( G1 X0.9110 Z-1.9940)
 ( G1 X1.0625)
-(o1004 ENDSUB)
+(o1001 ENDSUB)
 
 M9 (All Coolant Off)
 M5 (Spindle OFF)
@@ -104,5 +104,6 @@ G30 (Park Tool)
 (</cv1>)
 (----- End of Profiling -----)
 
-M30 (End of Program)
+
+M30 (end program)
 
