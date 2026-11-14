@@ -3,7 +3,8 @@ A quick tour of the `documentation-graphics-signs` folder structure, originally 
 * `_sign-pdfs` contains all the approved signs that are posted. Clicking on a file will show a preview.
 * `_source-graphics` contains all the original artwork that made the images in `_graphics`
 * `signs-tags-source` contains all the signs, including ones there were not approved or have not been approved yet
-All of the styles I created are prefixed w/`'a2 '`.
+
+LibreOffice and InkScape are the Open Source (AKA free) applications for editing the files. The LibreOffice documents use Styles to control the appearance and spacing the document contents. All of the styles are prefixed w/`'a2 '`.
 
 ----TL;DR;----\
 Fonts have a fascinating history. Thank the Germans for the DIN standard. There's even a standard for machine, factory, and street sign fonts and
