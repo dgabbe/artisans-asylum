@@ -22,15 +22,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.119469"
-     inkscape:cx="218.85375"
-     inkscape:cy="193.39526"
+     inkscape:zoom="1.42"
+     inkscape:cx="219.01408"
+     inkscape:cy="194.01408"
      inkscape:window-width="1326"
      inkscape:window-height="920"
      inkscape:window-x="0"
      inkscape:window-y="34"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g2" />
+     inkscape:current-layer="g59" />
   <desc
      id="desc1">luer-lock-label.dxf - scale = 25.400000, origin = (0.000000, 0.000000), method = file</desc>
   <defs
@@ -81,82 +81,98 @@
      inkscape:groupmode="layer"
      inkscape:label="label"
      id="g59"
+     style="display:inline"
      sodipodi:insensitive="true">
     <g
        id="g68"
-       transform="translate(161.73397,-970.3181)">
+       transform="translate(161.73397,-970.3181)"
+       inkscape:label="tabs">
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m 32.2441,1090.28 -7.8065,7.8"
          id="path42" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m 42.1289,1105.07 -10.1996,4.22"
          id="path43" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="M 45.6,1122.52 H 34.56"
          id="path44" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m 42.1289,1139.97 -10.1996,-4.22"
          id="path45" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m -42.1289,1105.07 10.1996,4.22"
          id="path46" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m -32.2441,1090.28 7.8065,7.8"
          id="path47" />
       <path
-         d="m 34.56,1122.5197 a 34.56,34.56 0 0 0 -69.12,0 34.56,34.56 0 0 0 69.12,0 z"
-         style="fill:none;stroke:#000000"
-         id="path48" />
-      <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m 0,1076.92 v 11.04"
          id="path49" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m -17.4504,1080.39 4.2249,10.2"
          id="path50" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m -45.6,1122.52 h 11.04"
          id="path51" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m -42.1289,1139.97 10.1996,-4.22"
          id="path52" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m -32.2441,1154.76 7.8065,-7.8"
          id="path53" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m -17.4504,1164.65 4.2249,-10.2"
          id="path54" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m 0,1168.12 v -11.04"
          id="path55" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m 17.4504,1164.65 -4.2249,-10.2"
          id="path56" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m 32.2441,1154.76 -7.8065,-7.8"
          id="path57" />
       <path
-         style="fill:none;stroke:#000000"
+         style="fill:none;stroke:#ff6600"
          d="m 17.4504,1080.39 -4.2249,10.2"
          id="path58" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer3"
+       inkscape:label="OD">
       <path
          d="m 67.2,1122.5197 a 67.2,67.2 0 0 0 -134.4,0 67.2,67.2 0 0 0 134.4,0 z"
-         style="fill:none;stroke:#000000"
-         id="path59" />
+         style="display:inline;fill:none;stroke:#ffff00"
+         id="path59"
+         inkscape:label="OD"
+         transform="translate(161.73397,-970.3181)" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer4"
+       inkscape:label="ID">
+      <path
+         d="m 34.56,1122.5197 a 34.56,34.56 0 0 0 -69.12,0 34.56,34.56 0 0 0 69.12,0 z"
+         style="display:inline;fill:none;stroke:#0000ff"
+         id="path48"
+         inkscape:label="ID"
+         transform="translate(161.73397,-970.3181)" />
     </g>
   </g>
   <g
